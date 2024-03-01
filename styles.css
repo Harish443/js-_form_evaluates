@@ -1,0 +1,36 @@
+*{
+    padding:0%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    position: relative;
+    top: 50px;
+
+}
+
+.forum{
+    position: relative;
+    justify-content: center;
+    left: 250px;
+}
+fieldset{
+    width:50%;
+    height:100%;
+    text-align: center;
+    border: 5px  solid black;
+}
+.Table-left{
+    position: absolute;
+    align-items: right;
+    padding-left: 20px;
+    
+}
+
+.Table-right{
+    position:relative;
+    left:100px;
+    padding-right: 20px;
+    
+}
+

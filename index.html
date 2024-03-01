@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>JS-ASSESSMENT</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <!-- <header>
+                
+                <h1>Call Detail Record</h1><br>
+                <p>
+                Please Fill the form below clearly indicating your interested calltype and best time for calling.
+                </p><br>
+
+            </header> -->
+            <div class="forum">
+            <fieldset >
+                <header>
+                
+                    <h1>Call Detail Record</h1><br>
+                    <p>
+                    Please Fill the form below clearly indicating your interested calltype and best time for calling.
+                    </p><br>
+                    <hr><br>
+                </header>
+                <form action="">
+                    <div class="Table-left" id="ct">
+                        Cell type
+                    </div>
+                    <div class="Table-right" id="dd">
+                        
+                        <input type="radio" name="one" id="1" onclick>Inboard</input><br>
+                        <input type="radio" name="one" id="2" onclick>Outboard</input><br>
+                        <input type="radio" name="one" id="3" onclick>Conference</input><br>
+                        
+                    </div>
+                    <br>
+                    <div class="Table-left">
+                       Name of the Person
+                    </div>
+                    <div class="Table-right">
+                    
+                    <input type="text" id="fname" placeholder="First Name"></input><br>
+                    <input type="text"  id="lname" placeholder="Last Name"></input>
+                    </div>
+                    <div class="Table-left">
+                        Phone Number
+                    </div>
+                    <div class="Table-right">
+                        <input type="tel" required></input><br>
+                        <br> 
+                        </div>
+                    <div class="Table-left">
+                        Client
+                    </div>
+                    <div class="Table-right">
+                        <select name="sd">
+                            <option value="">Select</option>
+                            <option value="Amazon">Amazon</option>
+                            <option value="Google">Google</option>
+                            <option value="IBM">IBM</option>
+
+                        </select>
+                        <input  type="text" placeholder="please select" ></input><br>
+                            
+                        </div>
+                    <div class="Table-left">
+                        Other
+                    </div>
+                    <div class="Table-right">
+                        
+                        <input type="text" required></input><br>
+                            
+                        </div>
+                    <div class="Table-left">
+                        Notes
+                    </div>
+                    <div class="Table-right">
+                        
+                        <textarea placeholder= "Type here..." required></textarea><br>
+                            
+                        </div>
+                    <div class="Table-left" id="dte">
+                        Date
+                    </div>
+                    <div class="Table-right">
+                        
+                        <input type="date" required></input><br>
+                            
+                    </div>
+                    <br><hr>
+                    <button type="submit" id="sb" onclick="Sbmt">Submit Form</button> 
+                </form>
+            </fieldset>
+        </div>
+        <table style="border: 1px solid black;">
+            <th> Type
+            </th>
+            <th> Name</th>
+            <th> Client</th>
+            <th> Created Date</th>
+            <th> Action</th>
+
+            
+        </table>
+        </main>
+        <script src="script.js"  defer></script>
+
+    </body>
+</html>
